@@ -1,0 +1,381 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+.header
+{
+    height: 100px;
+    background-color: chocolate;
+}
+.logo img
+{
+    width:80px;
+    padding: 20px 0px;
+    border: 0px;
+
+    
+ 
+}
+.logo 
+{
+    width: 60%;
+    float: left;
+   
+}
+
+.header.list-style
+{
+    width: 40%;
+    float: left;
+    position: relative;
+}
+.clear
+{
+    clear: both;
+}
+.contect
+{
+    margin: auto;
+    width: 80%;
+}
+.header li
+{
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+}
+.header a
+{
+    text-decoration: none;
+  margin-right:15px ;
+margin-top: 30px;
+  color:black;
+  font-size: 15px;
+
+}
+.header a:hover
+{
+    background-color: #fff;
+    color: blue;
+    border-radius:30px solid #fff ;
+    width: 50px;
+    height: 30px;
+    transition: 0.5s;
+    padding: 10px;
+    opacity: 1;
+}
+.header i
+{
+    font-size:30px;
+    padding-right: 30px;
+    color:black;
+    padding-top:20px;
+ 
+
+}
+.header i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.header span
+{
+  display: block;
+    position: absolute;
+    top:5px;
+    left:83%;
+    right:350px;
+    width:20px;
+    height:10px;
+    background-color: red;
+    border-radius:50%;
+    color:#fff;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+.about
+{
+   background-color:rgb(200, 185, 185);
+    height: 100vh;
+  position: relative;
+ 
+   
+}
+.about img
+{
+    width:80%;
+    margin-top: 80px;
+}
+.about button
+{
+    display: inline-block;
+}
+.img-header
+
+{
+  display: block;
+    position: absolute;
+    top: 60px;
+    left:40%;
+
+
+
+}
+.header-title
+{
+
+  position: absolute;
+  top: 40%;
+  right:50%;
+  transform: translate(-50%,-50%);
+  color:black;
+  
+}
+ 
+
+
+.header-title h1
+{
+    font-size:30px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+.header-title h1:hover
+{
+    color: blueviolet;
+}
+.header-title p
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.header-title i
+{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-title i:hover
+{
+    color: blue;
+}
+.header-title button
+{
+display: block;
+margin-left: 50px;
+font-size: 30px;
+margin-top: 20px;
+width:200px;
+height:60px;
+cursor: pointer;
+padding: 15px;
+transition: 0.5s;
+border-radius: 30px;
+border: 0;
+}
+.header-title button:hover
+{
+    background-color: rgb(72, 72, 149);
+    color: #fff;
+    transition: 0.6s;
+  
+}
+.services-itme
+{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 20px;
+position: relative;
+color: mediumblue;
+    
+}
+.services-itme span{
+position: absolute;
+display: block;
+background-color: rgb(52, 87, 139);
+width: 70px;
+height: 3px;
+text-align: center;
+left: 50%;
+top: 60px;
+
+}
+.services
+{
+    background-color:#fff;
+  
+}
+.services-content
+{
+    margin-top: 120px;
+ 
+
+}
+.services-content .itme
+{
+    box-shadow: 0px 25px 25px 0px rgb(52, 87, 139);
+    border-radius: 20px;
+    transition: 0.5s;
+    width:250px;
+    padding:20px;
+    margin: 70px 15px;
+    height:400px;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+    float: left;
+    background-color: #fff;
+
+}
+.services-content .itme img
+{
+    width: 45%;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.services-content .itme h2
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 30px;
+   
+
+}
+.services-content .itme h2:hover
+{
+    color:blueviolet;
+}
+.services-content .itme i
+{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.services-content .itme p
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.services-content .itme:hover
+{
+    transform:scale(1.1);
+}
+.mg{
+    display: block;
+   padding-top: 120px;
+}
+   .prot-head img
+   {
+       width:15%;
+   }
+   .prot-head{
+    box-shadow: 0px 25px 25px 0px royalblue;
+ background-color: slateblue;
+ width:15em;
+    border-radius:20px;
+    padding:20px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    width: 25%;
+    float: left;
+    margin: 50px 15px;
+}
+   .prot-head:hover
+   {
+       transform: scale(1.1);
+       background-color: sandybrown;
+     
+   }
+   .prot-head h1
+   {
+       margin:20px 0px;
+       text-transform:capitalize;
+   }
+
+   .prot-head p{
+       font-size: 20px;
+       margin:20px 0px ;
+   }
+   .prot-head a
+   {
+       font-size: 25px;
+       text-transform: capitalize;
+       color: darkgray;
+       text-decoration:none;
+
+   }
+   .pa{
+       padding: 30px 10px;
+   }
+   .paa img{
+       width: 25%;
+       padding: 10px 0px;
+
+
+   }
+   .portfolem
+   {
+       margin-top: 120px;
+   }
+@media(max-width:1024px){
+    .services-content .itme{
+        width: 300px;
+        float: none;
+    }
+    .prot-head{
+        width: 80%;
+        float: left;
+    }
+    .header i{
+        display: none;
+    }
+    .img-header img{
+        float: none;
+        width: 100%;
+        position: absolute;
+        right: 30px;
+    }
+    .about{
+        position: relative;
+        height: 200vh;
+        background-image: url(../imgs/1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .header-title{
+   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width:100%;
+    }
+    .list-style i{
+        display: none;
+    }
+    .list-style span{
+        display: none;
+    }
+    .header-title h1{
+        font-size:30px;
+        display: inline-block;
+        float: none;
+        color:blueviolet;
+    }
+ 
+    .header-title p{
+        color:blueviolet;
+    }
+
+}
+    
+
